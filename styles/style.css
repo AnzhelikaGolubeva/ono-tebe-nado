@@ -79,7 +79,6 @@ body {
     left: 0;
     opacity: 60%;
     background-color: #000000;
-    z-index: -1;
 }
 
 .cover_title {
@@ -252,7 +251,7 @@ body {
 }
 
 .about_logo-image {
-    height: 148px;
+    height: 114px;
 }
 
 .about_title {
@@ -277,7 +276,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 50px 90px 50px;
-    align-items: center;
     justify-items: center;
 }
 
@@ -304,9 +302,10 @@ body {
 .footer_menu-list {
     text-align: center;
     list-style-type: none;
+    font-size: 18px;
 }
 
-.footer_sotial-link {
+.footer_social-link {
     display: block;
     width: 48px;
     height: 48;
@@ -319,14 +318,13 @@ body {
 .footer_social-list {
     display: flex;
     list-style-type: none;
-    justify-content: end;
+    justify-self: flex-end;
 }
 
-.footer_sotial-list-item {
+.footer_social-list-item {
     margin-left: 48px;
 }
 
 .footer_social-icon {
     width: 48px;
 }
-
