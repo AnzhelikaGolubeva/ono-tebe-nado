@@ -121,7 +121,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     word-spacing: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", "Helvetica", sans-serif;
 }
 
 .bet-button {
@@ -131,6 +131,7 @@ body {
     background-color: transparent;
     border: 1px solid #FFFFFF;
     padding: 12px 32px;
+    font-family: "Raleway", "Helvetica", sans-serif;
 }
 
 .lots {
@@ -167,6 +168,10 @@ body {
 
 .lots_card-list-item {
     display: flex;
+}
+
+.card-link {
+    text-decoration: none;
 }
 
 .card_type_film {
