@@ -36,12 +36,17 @@ body {
 }
 
 .address {
-    max-width: 240px;
-    line-height: 135%;
-    text-underline-offset: 4px;
-    justify-self: flex-end;
-    font-size: 18px;
+    text-underline-offset: 5px;
     font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.3px;
+    white-space: nowrap;
+}
+
+.header-address {
+    justify-self: end;
+    margin-right: 32px;
 }
 
 .cover {
@@ -266,13 +271,8 @@ body {
     justify-items: center;
 }
 
-.address {
-    max-width: 240px;
-    line-height: 135%;
-    text-underline-offset: 4px;
-    justify-self: start;
-    font-size: 18px;
-    font-style: normal;
+.footer-address {
+    margin-right: 125px;
 }
 
 .footer-menu {
