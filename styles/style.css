@@ -55,10 +55,7 @@ body {
     position: relative;
     z-index: 1;
     padding: 165px 50px 50px;
-    background-image: url(../images/cover.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../images/cover.jpg) no-repeat center / cover;
 }
 
 .overlay {
@@ -165,9 +162,7 @@ body {
     padding: 51px 40px 48px;
     min-height: 563px;
     color: #FFFFFF;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: no-repeat center / cover;
 }
 
 .lots_card-list-item {
@@ -312,5 +307,5 @@ body {
 }
 
 .footer_social-icon {
-    width: 48px;
+    width: 100%;
 }
